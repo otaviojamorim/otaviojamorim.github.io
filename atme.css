@@ -402,13 +402,13 @@ nav{
 @media screen and (max-width:768px) {
 
     header{
-        height:70em;
+        height:100vh;
     }
 
     #slide > *{
         animation: 12s slide_opacity_animation infinite linear;
         position: absolute;
-        top: 40vh;
+        top: 50vh;
         left: 0;
         opacity: 0.0;    
     }
